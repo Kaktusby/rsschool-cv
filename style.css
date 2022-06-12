@@ -1,3 +1,97 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 18px;
+  color:rgb(84, 65, 35);
+  line-height: 1.5;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+  gap: 1rem;
+
+}
+.nav-link {
+  line-height: 50px;
+  text-decoration: none;
+  color: rgb(84, 65, 35);
+  font-size: 18px;
+  transition: color 0.3s linear;
+}
+
+.nav-link:hover {
+  color: rgb(200, 188, 158);
+}
+.projects {
+  text-decoration: none;
+  color: rgb(84, 65, 35);
+  font-size: 18px;
+  transition: color 0.3s linear;
+}
+.projects:hover {
+  color: rgb(200, 188, 158);
+}
+.wrapper {
+  display: flex;
+}
+.section {
+  width: 50%;
+}
+@media (max-width: 768px) {
+  .section {
+   width: 100%;
+  }
+}
+.colum-reit {
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+}
 h1 {
-  color: aliceblue;
+  padding-top: 60px ;
+  padding-left: 160px;
+  font-size: 46px;
+  color: rgb(110, 94, 72);
+}
+.nav {
+  font-size: 18px;
+  padding-left: 24px;
+  padding-bottom: 12px;
+}
+.footer{
+  padding: 20px 0;
+  background-color: rgb(200, 188, 158);
+  
+}
+.rsschool-logo {
+  width: 100px;
+}
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1 0 200px;
+}
+.flex-item {
+  display: flex;
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: 200px;
+  align-items: center;
 }
